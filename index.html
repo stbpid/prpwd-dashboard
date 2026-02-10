@@ -1,30 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Project Aruga</title>
-  <style>
-    body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #f4f4f4; }
-    iframe { width: 100%; height: 100%; border: none; display: none; } /* Hidden until loaded */
-    .loader { display: flex; justify-content: center; align-items: center; height: 100vh; font-family: sans-serif; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STB | PID Innovations</title>
+    <link rel="icon" href="favicon.png">
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+        iframe { width: 100%; height: 100%; border: none; }
+    </style>
 </head>
 <body>
-
-  <div id="loading" class="loader">Loading...</div>
-  <iframe id="myFrame" src=""></iframe>
-
-  <script>
-    const scrambledURL = "aHR0cHM6Ly9zY3JpcHQuZ29vZ2xlLmNvbS9tYWNyb3Mvcy9BS2Z5Y2J3ejBjU0ZnempRRmdIcUtWcjZ3eV9KSUVDSldxazI4UFhSeW5EdXpkVHNhTFI1Nm5TNm5zV2Q0X2c3a0pmaFNWQTMvZXhlYw==";
-
-    window.onload = function() {
-      const decodedURL = atob(scrambledURL);
-      const frame = document.getElementById('myFrame');
-      
-      frame.src = decodedURL;
-      
-      frame.style.display = "block";
-      document.getElementById('loading').style.display = "none";
-    };
-  </script>
+    <iframe src="https://script.google.com/macros/s/AKfycbwz0cSFgzjQFgHqKVr6wy_JIECJWqk28PXRynDuzdTsaLR56nS6nsWd4_g7kJfhSVA3/exec"></iframe>
+    
 </body>
+
 </html>
+
+
+
